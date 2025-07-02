@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Day with Allah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap" rel="stylesheet">
+<body>
+    <a id="top"></a>   
+  <div class="site-title">
+        <h1>Day with Allah</h1>
+    </div>
+    <header>
+        <p class="tagline">Напоминалка об обязательных намазах, ежедневный аят и хадис</p>
+        <nav>
+            <a href="#ayah-hadith" class="header-btn">Ежедневный аят и хадис</a>
+            <a href="#prayer-times" class="header-btn">Время намаза</a>
+            <a href="#useful-links" class="header-btn">Полезные ссылки</a>
+            <a href="about.html" class="header-btn">О нас</a>
+            <button id="dark-mode-toggle" class="header-btn" type="button" style="margin-left: 16px;">🌙</button>
+        </nav>
+    </header>
+
+    <section id="prayer-times">
+        <h2>Время намаза</h2>
+        <div id="location"></div>
+        <ul id="times-list"></ul>
+    </section>
+
+    <section id="islamic-calendar">
+    <h2>Исламский календарь</h2>
+    <div id="calendar-controls">
+        <button id="prev-month">←</button>
+        <span id="calendar-month-year"></span>
+        <button id="next-month">→</button>
+    </div>
+    <table id="calendar-table"></table>
+</section>
+<section id="useful-links">
+    <h2>Полезные исламские ресурсы</h2>
+    <div class="links-cards">
+        <a href="https://quran.com/ru" class="link-card" target="_blank">
+            <div>
+                <h3>Quran.com</h3>
+                <p>Чтение и прослушивание Корана на разных языках, удобный поиск по аятам.</p>
+            </div>
+        </a>
+        <a href="https://umma.ru/" class="link-card" target="_blank">
+            <div>
+                <h3>Umma.ru</h3>
+                <p>Вопросы и ответы об исламе, статьи, новости, календарь и сервисы для мусульман.</p>
+            </div>
+        </a>
+        <a href="https://muslimpro.com/" class="link-card" target="_blank">
+            <div>
+                <h3>Muslim Pro</h3>
+                <p>Мобильное приложение: время намаза, Коран, дуа, исламский календарь.</p>
+            </div>
+        </a>
+        <a href="https://islamhouse.com/ru/" class="link-card" target="_blank">
+            <div>
+                <h3>IslamHouse</h3>
+                <p>Библиотека исламских книг, брошюр и аудиоматериалов на русском языке.</p>
+            </div>
+        </a>
+    </div>
+</section>
+
+<div class="reflect-btn-container">
+    <a href="https://www.youtube.com/@densAllahom" target="_blank" rel="noopener" class="reflect-btn-link">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_(2017).svg" alt="YouTube Logo" class="reflect-logo">
+        <span>Также заходите на наш YouTube-канал</span>
+    </a>
+</div>
+
+
+    <section id="ayah-hadith">
+        <h2>Ежедневный аят</h2>
+        <div id="ayah"></div>
+        <h2>Ежедневный хадис</h2>
+        <div id="hadith"></div>
+    </section>
+
+    <footer>
+    <div class="footer-links">
+        <a href="#">Карта сайта</a>
+        <span>·</span>
+        <a href="#">Конфиденциальность</a>
+        <span>·</span>
+        <a href="#">Условия и положения</a>
+    </div>
+    <div class="footer-info">
+        <strong>Day with Allah</strong> — современный сайт для мусульман: напоминания о намазе, ежедневный аят и хадис, исламский календарь, полезные ресурсы. Помогает не забывать о важном и быть ближе к вере каждый день.
+    </div>
+    <div class="footer-copy">
+        © 2025 <a href="/">Day with Allah</a>. Все права защищены
+    </div>
+</footer>
+
+
+    <a href="#top" class="scroll-to-top" id="scrollToTopBtn">↑ Наверх</a>
+    <script src="script.js"></script>
+</body>
+</html>
